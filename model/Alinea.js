@@ -1,4 +1,6 @@
 // model/Alinea.js
+var mongoose = require('mongoose')
+
 var AlineaSchema = mongoose.Schema({
     alinea : Number,
     text : String,
