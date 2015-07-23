@@ -45,7 +45,7 @@ module.exports = function (passport) {
         })
     });
 
-    passport.use('connection', new LocalStrategy({
+    passport.use('connexion', new LocalStrategy({
         usernameField: email,
         passwordField: motDePasse,
         passReqToCallback: true

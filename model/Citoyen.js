@@ -3,7 +3,6 @@ var mongoose = require('mongoose')
 var bcrypt = require('bcrypt-nodejs')
 
 var CitoyenSchema = mongoose.Schema({
-    numero : String,
     email : String,
     motdepasse : String
 })
