@@ -3,7 +3,8 @@ var config = require('./config'),
     express = require('express'),
     bodyParser = require('body-parser'),
     methodOverride = require('method-override'),
-    morgan = require('morgan')
+    morgan = require('morgan'),
+    passport = require('./config/passport')(require('passport'))
 
 //initialise la base de données
 mongoose.connect(config.bdd.mongo)

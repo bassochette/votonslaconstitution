@@ -3,9 +3,8 @@ var mongoose = require('mongoose'),
     Article = require('./Article').schema
 var TitreSchema = mongoose.Schema({
     nom : String,
-    articles : [Article],
+    articles : [ObjectId],
     revision : Date
 })
 
-module.exports.schema = TitreSchema
-module.exports.model = mongoose.model('Titre', TitreSchema)
+module.exports = mongoose.model('Titre', TitreSchema)

@@ -7,5 +7,4 @@ var AlineaSchema = mongoose.Schema({
     revision : Date
 })
 
-module.exports.schema = AlineaSchema
-module.exports.model = mongoose.model('Alinea', AlineaSchema)
+module.exports = mongoose.model('Alinea', AlineaSchema)

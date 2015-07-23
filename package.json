@@ -13,6 +13,9 @@
     "express": "^4.13.1",
     "method-override": "^2.3.4",
     "mongoose": "^4.0.8",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "node-bcrypt": "0.0.1",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0"
   }
 }
