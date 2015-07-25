@@ -1,8 +1,8 @@
 // model/Citoyen.js
 var mongoose = require('mongoose')
-var bcrypt = require('bcrypt-nodejs')
+     bcrypt = require('node-bcrypt')
 
-var CitoyenSchema = mongoose.Schema({
+var CitoyenSchema = new mongoose.Schema({
     email : String,
     motdepasse : String
 })

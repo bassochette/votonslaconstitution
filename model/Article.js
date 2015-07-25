@@ -1,6 +1,7 @@
 // model/Article.js
 var mongoose = require('mongoose'),
-    Alinea = require('./Alinea').schema
+    ObjectId = mongoose.Schema.ObjectId,
+    Alinea = require('./Alinea')
 var ArticleSchema = mongoose.Schema({
     nom : String,
     alineas : [ObjectId],

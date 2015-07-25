@@ -15,10 +15,10 @@ module.exports = function (passport) {
     });
 
     passport.use('inscription', new LocalStrategy({
-        usernameField: email,
-        passwordField: motdepasse,
+        usernameField: 'email',
+        passwordField: 'motdepasse',
         passReqToCallback: true
-    }), function (req, email, motdepasse, next) {
+    }, function (req, email, motdepasse, next) {
 
         process.nextTick(function () {
             Citoyen.findOne({
@@ -43,11 +43,11 @@ module.exports = function (passport) {
                 }
             })
         })
-    });
+    }));
 
     passport.use('connexion', new LocalStrategy({
-        usernameField: email,
-        passwordField: motDePasse,
+        usernameField: 'email',
+        passwordField: 'motDePasse',
         passReqToCallback: true
     }, function (req, email, motDePasse, next) {
         Citoyen.findOne({

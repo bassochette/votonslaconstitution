@@ -1,11 +1,12 @@
 // model/Citoyen.js
 
-var mongoose = require('mongoose')
+var mongoose = require('mongoose'),
+    ObjectId = mongoose.Schema.ObjectId
 
-var VoteSchema = mongoose.Schema({
+var VoteSchema = new  mongoose.Schema({
     citoyen : ObjectId,
-    vote : '',
-    commentaire : '',
+    vote : String,
+    commentaire : String,
     alinea : ObjectId
 })
 

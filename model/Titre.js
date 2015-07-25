@@ -1,7 +1,8 @@
 // model/Titre.js
 var mongoose = require('mongoose'),
-    Article = require('./Article').schema
-var TitreSchema = mongoose.Schema({
+    ObjectId = mongoose.Schema.ObjectId
+
+var TitreSchema = new mongoose.Schema({
     nom : String,
     articles : [ObjectId],
     revision : Date

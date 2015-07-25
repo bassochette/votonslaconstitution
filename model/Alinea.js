@@ -1,10 +1,12 @@
 // model/Alinea.js
-var mongoose = require('mongoose')
+var mongoose = require('mongoose'),
+    ObjectId = mongoose.Schema.ObjectId
 
-var AlineaSchema = mongoose.Schema({
+var AlineaSchema = new mongoose.Schema({
     alinea : Number,
     text : String,
-    revision : Date
+    revision : Date,
+    article : ObjectId
 })
 
 module.exports = mongoose.model('Alinea', AlineaSchema)
