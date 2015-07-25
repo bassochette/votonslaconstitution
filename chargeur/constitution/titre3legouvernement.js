@@ -1,4 +1,4 @@
-{
+module.expoorts = {
 	nom : 'Titre III - LE GOUVERNEMENT',
 	articles : [
 		{
@@ -76,4 +76,4 @@
 			]
 		}
 	]
-},
+}

@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre XI bis - LE DÉFENSEUR DES DROITS',
 	articles : [
 		{

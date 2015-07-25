@@ -1,5 +1,5 @@
-{
-	nom : 'Titre XV - DE L'UNION EUROPÉENNE',
+module.exports = {
+	nom : "Titre XV - DE L'UNION EUROPÉENNE",
 	articles : [
 		{
 			nom : 'Article 88-1',
@@ -108,4 +108,4 @@
 			]
 		}
 	]
-},
+}

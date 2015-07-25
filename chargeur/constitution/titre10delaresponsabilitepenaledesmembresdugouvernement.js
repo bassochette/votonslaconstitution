@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre X - DE LA RESPONSABILITÉ PÉNALE DES MEMBRES DU GOUVERNEMENT',
 	articles : [
 		{

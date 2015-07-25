@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre VII - LE CONSEIL CONSTITUTIONNEL',
 	articles : [
 		{

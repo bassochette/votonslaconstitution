@@ -16,8 +16,8 @@ db.once('open', function(){
     console.log('Base de données connecté')
 })
 
-// Load data
-require('./fixtures')
+// Charge les donnees
+require('./chargeur')
 
 // initialise express
 var app = express()

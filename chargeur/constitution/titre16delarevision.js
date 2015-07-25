@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre XVI - DE LA RÉVISION',
 	articles : [
 		{

@@ -1,5 +1,5 @@
-{
-	nom : 'Titre XIV - DE LA FRANCOPHONIE ET DES ACCORDS D'ASSOCIATION',
+module.exports = {
+	nom : "Titre XIV - DE LA FRANCOPHONIE ET DES ACCORDS D'ASSOCIATION",
 	articles : [
 		{
 			nom : 'Article 87',
@@ -23,4 +23,4 @@
 			]
 		}
 	]
-},
+}

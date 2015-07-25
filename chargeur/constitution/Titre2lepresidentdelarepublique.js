@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre II - LE PRÉSIDENT DE LA RÉPUBLIQUE',
 	articles : [
 		{
@@ -127,12 +127,12 @@
 			nom : 'Article 10',
 			alineas : [
 				{
-					alinea:,
+					alinea: 1,
 					texte: "Le Président de la République promulgue les lois dans les quinze jours qui suivent la transmission au Gouvernement de la loi définitivement adoptée."
 				},
 				
 				{
-					alinea:,
+					alinea: 2,
 					texte: "Il peut, avant l'expiration de ce délai, demander au Parlement une nouvelle délibération de la loi ou de certains de ses articles. Cette nouvelle délibération ne peut être refusée."
 				}
 			]
@@ -143,8 +143,7 @@
 			alineas : [
 				{
 					alinea: 1,
-					texte: "Le Président de la République, sur proposition du Gouvernement pendant la durée des sessions ou sur proposition conjointe des deux assemblées, publiées au Journal Officiel, peut soumettre au référendum tout projet de loi portant sur l'organisation des pouvoirs publics, sur des réformes relatives à la politique économique, sociale ou environnementale(1) de la nation et aux services publics qui y concourent, ou tendant à autoriser la ratification d'un traité qui, sans être contraire à la Constitution, aurait des incidences sur le fonctionnement des institutions.
-					(1): Le Conseil constitutionnel n'a pas eu l'occasion de se prononcer sur la question de savoir si la rédaction issue du 1° de l'article 4 de la loi constitutionnelle n° 2008-724 du 23 juillet 2008 entre en vigueur au lendemain de la publication de cette loi constitutionnelle (25 juillet 2008) ou dans les conditions fixées par le I de l'article 46 de cette même loi constitutionnelle."
+					texte: "Le Président de la République, sur proposition du Gouvernement pendant la durée des sessions ou sur proposition conjointe des deux assemblées, publiées au Journal Officiel, peut soumettre au référendum tout projet de loi portant sur l'organisation des pouvoirs publics, sur des réformes relatives à la politique économique, sociale ou environnementale(1) de la nation et aux services publics qui y concourent, ou tendant à autoriser la ratification d'un traité qui, sans être contraire à la Constitution, aurait des incidences sur le fonctionnement des institutions. (1): Le Conseil constitutionnel n'a pas eu l'occasion de se prononcer sur la question de savoir si la rédaction issue du 1° de l'article 4 de la loi constitutionnelle n° 2008-724 du 23 juillet 2008 entre en vigueur au lendemain de la publication de cette loi constitutionnelle (25 juillet 2008) ou dans les conditions fixées par le I de l'article 46 de cette même loi constitutionnelle."
 				},
 
 				{

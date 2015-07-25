@@ -1,5 +1,5 @@
-{
-	nom : 'Titre VIII -  DE L'AUTORITÉ JUDICIAIRE',
+module.exports = {
+	nom : "Titre VIII -  DE L'AUTORITÉ JUDICIAIRE",
 	articles : [
 		{
 			nom : 'Article 64',

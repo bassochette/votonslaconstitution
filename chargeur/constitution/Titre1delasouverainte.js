@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre I - DE LA SOUVERAINETÉ',
 	articles : [
 		{

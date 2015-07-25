@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre V - DES RAPPORTS ENTRE LE PARLEMENT ET LE GOUVERNEMENT',
 	articles : [
 		{
@@ -6,25 +6,17 @@
 			alineas : [
 				{
 					alinea: 1,
-					texte: "La loi fixe les règles concernant :
-					les droits civiques et les garanties fondamentales accordées aux citoyens pour l'exercice des libertés publiques ; la liberté, le pluralisme et l'indépendance des médias ; les sujétions imposées par la défense nationale aux citoyens en leur personne et en leurs biens ; la nationalité, l'état et la capacité des personnes, les régimes matrimoniaux, les successions et libéralités ; la détermination des crimes et délits ainsi que les peines qui leur sont applicables ; la procédure pénale ; l'amnistie ; la création de nouveaux ordres de juridiction et le statut des magistrats ; l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures ; le régime d'émission de la monnaie."
+					texte: "La loi fixe les règles concernant :les droits civiques et les garanties fondamentales accordées aux citoyens pour l'exercice des libertés publiques ; la liberté, le pluralisme et l'indépendance des médias ; les sujétions imposées par la défense nationale aux citoyens en leur personne et en leurs biens ; la nationalité, l'état et la capacité des personnes, les régimes matrimoniaux, les successions et libéralités ; la détermination des crimes et délits ainsi que les peines qui leur sont applicables ; la procédure pénale ; l'amnistie ; la création de nouveaux ordres de juridiction et le statut des magistrats ; l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures ; le régime d'émission de la monnaie."
 				},
 
 				{
 					alinea: 2,
-					texte: "La loi fixe également les règles concernant :
-					le régime électoral des assemblées parlementaires, des assemblées locales et des instances représentatives des Français établis hors de France ainsi que les conditions d'exercice des mandats électoraux et des fonctions électives des membres des assemblées délibérantes des collectivités territoriales ; la création de catégories d'établissements publics ; les garanties fondamentales accordées aux fonctionnaires civils et militaires de l'État ; les nationalisations d'entreprises et les transferts de propriété d'entreprises du secteur public au secteur privé."
+					texte: "La loi fixe également les règles concernant : le régime électoral des assemblées parlementaires, des assemblées locales et des instances représentatives des Français établis hors de France ainsi que les conditions d'exercice des mandats électoraux et des fonctions électives des membres des assemblées délibérantes des collectivités territoriales ; la création de catégories d'établissements publics ; les garanties fondamentales accordées aux fonctionnaires civils et militaires de l'État ; les nationalisations d'entreprises et les transferts de propriété d'entreprises du secteur public au secteur privé."
 				},
 
 				{
 					alinea: 3,
-					texte: "La loi détermine les principes fondamentaux :
-					de l'organisation générale de la Défense Nationale ;
-					de la libre administration des collectivités territoriales, de leurs compétences et de leurs ressources ;
-					de l'enseignement ;
-					de la préservation de l'environnement ;
-					du régime de la propriété, des droits réels et des obligations civiles et commerciales ;
-					droit du travail, du droit syndical et de la sécurité sociale."
+					texte: "La loi détermine les principes fondamentaux : de l'organisation générale de la Défense Nationale; de la libre administration des collectivités territoriales, de leurs compétences et de leurs ressources; de l'enseignement ; de la préservation de l'environnement ;du régime de la propriété, des droits réels et des obligations civiles et commerciales ;droit du travail, du droit syndical et de la sécurité sociale."
 				},
 
 				{

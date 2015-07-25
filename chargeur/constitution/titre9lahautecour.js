@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre IX - LA HAUTE COUR',
 	articles : [
 		{

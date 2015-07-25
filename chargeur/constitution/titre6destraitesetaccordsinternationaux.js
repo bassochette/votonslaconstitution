@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre VI - DES TRAITÉS ET ACCORDS INTERNATIONAUX',
 	articles : [
 		{

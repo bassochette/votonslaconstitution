@@ -1,4 +1,4 @@
-{
+module.exports = {
 	nom : 'Titre XI - LE CONSEIL ÉCONOMIQUE, SOCIAL ET ENVIRONNEMENTAL',
 	articles : [
 		{

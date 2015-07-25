@@ -1,4 +1,4 @@
-{
+module.exports  = {
 	nom : 'Préambule et article 1er',
 	articles : [
 		{
