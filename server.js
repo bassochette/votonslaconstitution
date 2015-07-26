@@ -17,7 +17,7 @@ db.once('open', function(){
 })
 
 // Charge les donnees
-require('./chargeur')
+//require('./chargeur')
 
 // initialise express
 var app = express()
