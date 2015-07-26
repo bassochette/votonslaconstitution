@@ -1,4 +1,4 @@
-module.expoorts = {
+module.exports = {
 	nom : 'Titre III - LE GOUVERNEMENT',
 	articles : [
 		{

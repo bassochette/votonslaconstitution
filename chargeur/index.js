@@ -10,7 +10,6 @@ fs.readdir(__dirname+'/constitution', function(err, files){
     files.forEach(function(file){
         if(file !== '.DS_Store')
         {
-            console.log(file)
             var titre = require('./constitution/'+file);
             var nvTitre = new Titre();
             nvTitre.nom = titre.nom;
@@ -19,8 +18,6 @@ fs.readdir(__dirname+'/constitution', function(err, files){
                     console.log(err)
                 }
                 titre.articles.forEach(function(article){
-                    //console.log(article.nom)
-                    //console.log(article.alineas)
                     nvArticle = new Article()
                     nvArticle.nom = article.nom
                     nvArticle.titre = t
@@ -28,13 +25,13 @@ fs.readdir(__dirname+'/constitution', function(err, files){
                         if(err){
                             console.log(err)
                         }
-                        article.alineas.forEach(function(err, alinea){
+                        article.alineas.forEach(function(alinea){
                             var nvAlinea = new Alinea()
                             nvAlinea.alinea = alinea.numero
                             nvAlinea.texte = alinea.texte
                             nvAlinea.article = a
                             nvAlinea.save(function(err, al){
-                                console.log(al)
+                                //console.log(al)
                             })
                         })
                     })
@@ -42,4 +39,4 @@ fs.readdir(__dirname+'/constitution', function(err, files){
             })
         }
     })
-});
+})

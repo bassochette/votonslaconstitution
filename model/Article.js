@@ -1,11 +1,12 @@
 // model/Article.js
 var mongoose = require('mongoose'),
-    ObjectId = mongoose.Schema.ObjectId,
-    Alinea = require('./Alinea')
+    ObjectId = mongoose.Schema.ObjectId
+
 var ArticleSchema = mongoose.Schema({
     nom : String,
     alineas : [ObjectId],
-    revision : Date
+    revision : Date,
+    titre : ObjectId
 })
 
 module.exports = mongoose.model('Article', ArticleSchema)
